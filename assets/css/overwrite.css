@@ -153,6 +153,7 @@ ol {
 ul li,
 ol li{
     margin-bottom: 5px;
+    display: flex;
 }
 
 .list-icons{
@@ -161,7 +162,8 @@ ol li{
 }
 
 .list-icons li i{
-	margin-right:3px;
+	margin-right: 5px;
+	line-height: 15px;
 }
 
 .link-list li a{

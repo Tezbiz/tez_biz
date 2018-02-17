@@ -20,7 +20,7 @@ CSS structure
 07. Yellow color
 08. Green color
 09. Red color
-	
+
 ============================================================== */
 /*
 Primary color
@@ -179,12 +179,13 @@ ul.proprty-content li .fa,
 .news-categories li a:focus,
 .news-categories li a:active,
 .single-singlepost-heading h3 a:hover{
-	color:#ff4629;
+	color:#f47d2f;
+	text-decoration: none;
 }
 
 .icon-circle.icon-bordered.fa-primary:hover,
 .icon-square.icon-bordered.fa-primary:hover{
-	color:#f7482c;
+	color:#ff6500;
 }
 
 /*
@@ -317,7 +318,7 @@ nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li a.btn,
 nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li.active a.btn,
 .landingpage-form,
 .object{
-	background-color:#ff4629;
+	background-color:#f47d2f;
 }
 
 .thumbnail .img-wrapper h5{
@@ -361,7 +362,7 @@ ul.top-link li a.signup:active,
 .irs-slider:hover,
 nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li a.btn:hover,
 nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li.active a.btn:hover{
-	background-color:#f7482c;
+	background-color:#ff6500;
 }
 
 /*
@@ -416,26 +417,26 @@ ol.process-line > li:hover > .process-image,
 nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li a.btn,
 nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li.active a.btn,
 .magazine-title h5{
-	border-color:#ff4629;
+	border-color:#f47d2f;
 }
 
 .process-box.primary-bg:after,
 .timeline-column.setright .timeline-time:after{
-	border-left-color:#ff4629;
+	border-left-color:#f47d2f;
 }
 
 .timeline-column.setleft .timeline-time:after{
-	border-right-color:#ff4629;
+	border-right-color:#f47d2f;
 }
 
 nav.navbar.bootsnav li.dropdown ul.dropdown-menu,
 nav.navbar.navbar-inverse.bootsnav li.dropdown ul.dropdown-menu{
-	border-top-color:#ff4629;
+	border-top-color:#f47d2f;
 }
 
 .menu-list li .menu-price:before,
 .menu-book-footer .menu-price:before{
-	border-bottom-color:#ff4629;
+	border-bottom-color:#f47d2f;
 }
 
 .thumbnail .img-wrapper h5:after{
@@ -466,13 +467,13 @@ nav.navbar.navbar-inverse.bootsnav ul.cart-list > li.total > .btn:active,
 .open > .dropdown-toggle.btn-primary.focus,
 nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li a.btn:hover,
 nav.navbar.navbar-inverse.navbar-scrollspy.bootsnav ul.nav li.active a.btn:hover{
-	border-color:#f7482c;
+	border-color: #ff6500;
 }
 
 .resume-head:before,
 .landingpage-form:before,
 .landingpage-form:after{
-	border-top-color:#f7482c;
+	border-top-color:#ff6500;
 }
 
 /*

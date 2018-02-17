@@ -558,12 +558,12 @@ Title head
   font-size: 18px;
   line-height: 36px;
   margin-bottom: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
 }
 
 .title-head h1, .title-head h2, .title-head h3, .title-head h4, .title-head h5, .title-head h6 {
-  font-size: 42px;
-  line-height: 56px;
+  font-size: 30px;
+  line-height: 45px;
   font-weight: 300;
 }
 
@@ -1299,9 +1299,9 @@ Film roll caraousel
 
 .full-column-content {
   position: relative;
-  padding: 60px 20px 20px 0px;
-  /*padding: 60px 20px;*/
+  padding: 60px 20px;
   z-index: 4;
+  min-height: 380px
 }
 
 .full-column-content .icon {
@@ -2149,10 +2149,11 @@ ul.list-pricing>li {
   text-align: center;
   border: solid 1px #e3e3e5;
   margin: 0 -0.5px;
-  padding: 40px 30px;
+  padding: 40px 15px;
   cursor: default;
   background-color: #fff;
   z-index: 1;
+  /* min-height: 800px; */
   margin-bottom: 30px;
   border-radius: 2px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2229,7 +2230,7 @@ ul.list-pricing>li {
 }
 
 .pricing-item.secondary .pricing-anim {
-  font-size: 92px;
+  font-size: 60px;
 }
 
 .pricing-item:hover .pricing-anim {
@@ -2296,8 +2297,10 @@ ul.list-pricing>li {
 .pricing-item .pricing-feature-list {
   margin: 0 0 25px 0;
   padding: 0;
+  font-size: 14px;
   list-style: none;
-  text-align: center;
+  text-align: left;
+  min-height: 430px;
 }
 
 .pricing-item.secondary .pricing-feature-list {
@@ -2308,7 +2311,7 @@ ul.list-pricing>li {
 .pricing-item.secondary .pricing-feature-list li.list-style1, .pricing-item.secondary .pricing-feature-list li.list-style2 {
   background: #fafcfc;
   margin: 0;
-  padding: 10px 30px;
+  padding: 10px 25px;
 }
 
 .pricing-item.secondary .pricing-feature-list li.list-style2 {
@@ -2320,7 +2323,11 @@ ul.list-pricing>li {
   margin: 0;
   padding: 50px 30px 50px 30px;
 }
-
+.pricing-item.secondary .pricing-footer-1 {
+  background: #fafcfc;
+  margin: 0;
+  padding: 50px 30px 50px 30px;
+}
 /*
 Contact
 =========================== */
@@ -5417,8 +5424,8 @@ footer .recent-post-list li h6 a {
     text-align: center;
     background: #131617;
     color: #ffffff;
-    padding: 35px 0 30px 0;
-    margin-top: 30px;
+    padding: 60px 0 30px;
+    margin-top: 20px;
     font-size: 15px;
 }
 
@@ -6479,7 +6486,7 @@ a.openpanel:hover {
 }
 
 #color1 {
-  background-color: #ff4629;
+  background-color: #f47d2f;
 }
 
 #color2 {
@@ -6573,14 +6580,196 @@ a.services_link{
 a.services_link:hover{
 	color: #fff;
     text-decoration: none;
-    background: #ff4629;
+    background: #f47d2f;
+}
+.absolute-icon h4 {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.pricing-icon-size{
+    color: #f47d2f;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 9px 5px 0px 0px;
+}
+ul.pricing-feature-list.list-style-none {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/*-- v edit----*/
-@media only screen and (min-width: 1000px) and (max-width:1390px )
-{
-	#index_services .full-column-icon
-	{
-	min-height: 400px;
-	}
+.custom-private-steps {
+    border: 1px solid #eee;
+    background: #fff;
+    padding: 20px 15px 10px;
+    min-height: 340px;
+    transition: 0.5s;
+}
+.custom-private-steps:hover{
+    transform: scale(1.02);
+    box-shadow: 3px 3px 20px -5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1;
+}
+.no-padding{
+    padding: 0
+}
+.address-box {
+    background-color: #4c9ad4;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: -65px;
+    width: 100%;
+}
+.address-box .address-content {
+    display: inline-block;
+    position: relative;
+    padding-left: 72px;
+    padding-bottom: 0px;
+    text-align: left;
+}
+.address-box .address-content span {
+    background-color: #6db6ec;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    left: 16px;
+    top: 25px;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    line-height: 37px;
+    text-align: center;
+}
+.address-box .address-content h3 {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1.12px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    word-wrap: break-word;
+    font-weight: bold;
+}
+.address-box .address-content p a{
+    color: #fff
+}
+.address-box .address-content-1 {
+    background-color: #2c7ebb;
+    text-align: left;
+}
+.address-box .address-content p {
+    color: #222;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.39px;
+}
+.address-box .address-content p {
+    color: #fff;
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.39px;
+}
+
+.registration-benifits {
+    padding: 25px 0;
+}
+.image-outer {
+    position: relative;
+    max-width: 430px;
+    background: #f6f8fbb5;
+}
+ .image-outer:before {
+    left: 30px;
+    top: 30px;
+}
+.image-outer:before {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #e6e6e6;
+}
+.image-box {
+    position: relative;
+    left: 65px;
+    top: 65px;
+}
+
+
+.flat-table {
+  width: 100%
+}
+.flat-table th {
+  background-color: #666666;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+  text-transform: capitalize;
+}
+.flat-table tr{
+    background: #f6f8fb;
+
+}
+.flat-table td {
+  color: #666;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+.flat-table tr:nth-of-type(odd){
+    background: #fff !important
+}
+.wrong{
+    color:#ff0000 !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+.right{
+    color: #00a907 !important;
+    font-weight: bold;
+    font-size: 20px;
+}
+@media screen and (max-width:991px){
+    .image-outer{
+        max-width: 100%;
+    }
+    .image-box {
+        left: 0;
+        top: 0
+    }
+    .image-outer:before {
+        display: none;
+    }
+}
+@media (min-width:992px) and (max-width:1024px){
+
+    .image-outer {
+        position: relative;
+        max-width: 400px;
+        background: #f6f8fbb5;
+    }
+     .image-outer:before {
+        left: 30px;
+        top: 30px;
+    }
+    .image-outer:before {
+        content: '';
+        position: absolute;
+        left: 30px;
+        top: 30px;
+        width: 100%;
+        height: 100%;
+        border: 1px solid #e6e6e6;
+    }
+    .image-box {
+        position: relative;
+        left: 65px;
+        top: 65px;
+    }
 }
