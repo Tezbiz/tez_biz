@@ -25,7 +25,7 @@ CSS structure
 12. Pagination
 13. Form
 14. Divider
-	
+
 ============================================================== */
 
 /*
@@ -750,7 +750,7 @@ Tabs
 	border-top:none;
 	padding:15px 20px 0 20px;
 	margin:0;
-	height:100%;	
+	height:100%;
 	border-radius:0 0 2px 2px;
 }
 .custom-tabs.tab-lg ul.nav > li > a,
@@ -839,13 +839,13 @@ Panel
 .panel-group .panel .panel-heading,
 .panel-group .panel .panel-heading .panel-title{
     padding: 0;
-} 
+}
 
 .panel-group .panel .panel-heading .panel-title a{
     padding: 15px 20px 15px 45px;
     display: block;
     text-decoration: none !important;
-    background-color: #fff;
+    background-color: #f6f8fb;
     border-radius: 2px;
     position: relative;
 }
@@ -921,7 +921,7 @@ Button
 	font-weight:400;
 	border: 1px solid transparent;
 	color: #464646;
-	background-color: #fff;	
+	background-color: #fff;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -930,7 +930,7 @@ Button
 }
 
 .btn:hover{
-	background-color: #eee;	
+	background-color: #eee;
 }
 
 .btn-bordered{
@@ -1461,7 +1461,7 @@ Button
 	letter-spacing:4px;
 	border:1px solid #d5d5d5;
 	z-index:5;
-    -moz-transform:rotate(-90deg); 
+    -moz-transform:rotate(-90deg);
     -moz-transform-origin: bottom left;
     -webkit-transform: rotate(-90deg);
     -webkit-transform-origin: bottom left;
@@ -1883,7 +1883,7 @@ footer .form-control::-webkit-input-placeholder {
 .jcf-scrollbar.jcf-inactive .jcf-scrollbar-handle {
 	visibility: hidden;
 }
-.jcf-scrollbar.jcf-inactive .jcf-scrollbar-dec, 
+.jcf-scrollbar.jcf-inactive .jcf-scrollbar-dec,
 .jcf-scrollbar.jcf-inactive .jcf-scrollbar-inc {
 	background: #e3e3e3;
 }

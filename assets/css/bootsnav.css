@@ -844,6 +844,7 @@ ul.top-link li a.signup:active{
         margin-bottom: 0;
         border-bottom: none;
         color: #6f6f6f;
+        font-size: 14px;
     }
 
     nav.navbar.bootsnav.on ul.dropdown-menu.megamenu-content .content{

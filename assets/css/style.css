@@ -1,11 +1,7 @@
 /* ==============================================================
-
-
-
 -----------------------------------------------------------------
 CSS structure
 -----------------------------------------------------------------
-
 01. Stylesheet
 02. Container
 03. Revolution slider
@@ -59,11 +55,6 @@ CSS structure
 52. Smartphones  (portrait and landscape)
 53. Preloading
 54. Demo
-
-============================================================== */
-
-/*
-Stylesheet
 =========================== */
 
 @import url('../fonts/FontAwesome/font-awesome.css');
@@ -87,7 +78,9 @@ Stylesheet
 /*
 Container
 =========================== */
-
+body{
+    overflow-x: hidden;
+}
 .contain-wrapp {
   display: block;
   position: relative;
@@ -557,7 +550,7 @@ Title head
   width: 100%;
   font-size: 18px;
   line-height: 36px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding-bottom: 15px;
 }
 
@@ -2300,7 +2293,7 @@ ul.list-pricing>li {
   font-size: 14px;
   list-style: none;
   text-align: left;
-  min-height: 430px;
+
 }
 
 .pricing-item.secondary .pricing-feature-list {
@@ -6601,13 +6594,14 @@ ul.pricing-feature-list.list-style-none {
 
 .custom-private-steps {
     border: 1px solid #eee;
-    background: #fff;
-    padding: 20px 15px 10px;
-    min-height: 340px;
+    background: #f6f8fb;
+    padding: 20px 20px 10px;
+    /* min-height: 340px; */
     transition: 0.5s;
 }
 .custom-private-steps:hover{
     transform: scale(1.02);
+    background: #fff;
     box-shadow: 3px 3px 20px -5px rgba(0, 0, 0, 0.3);
     position: relative;
     z-index: 1;
@@ -6773,3 +6767,45 @@ ul.pricing-feature-list.list-style-none {
         top: 65px;
     }
 }
+/*----- Start Menu Custom Title -----*/
+.menu-title-custom {
+    font-size: 17px;
+    /* text-transform: uppercase; */
+    color: #333;
+}
+.menu-title-custom:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 35px;
+    height: 2px;
+    background: #f37c2f;
+}
+#navbar-menu ul li{
+        display: block;
+}
+.speak-withus-title{
+    font-size: 17px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+span.call-us-text-menu{
+    font-size: 16px;
+    font-weight: bold;
+    line-height: normal;
+}
+
+.private-pricing-min-height{
+      min-height: 695px;
+}
+.private-pricing-standard-in-height{
+      min-height: 550px;
+}
+
+/* .public-limited-pricing-min-height{
+      min-height: 695px;
+}
+.public-limited-pricing-standard-in-height{
+      min-height: 550px;
+} */
+/*----- End Menu Custom Title -----*/
