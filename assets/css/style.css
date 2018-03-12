@@ -6596,7 +6596,7 @@ ul.pricing-feature-list.list-style-none {
     border: 1px solid #eee;
     background: #f6f8fb;
     padding: 20px 20px 10px;
-    /* min-height: 340px; */
+    min-height: 340px;
     transition: 0.5s;
 }
 .custom-private-steps:hover{
@@ -6681,16 +6681,16 @@ ul.pricing-feature-list.list-style-none {
 .image-outer:before {
     content: '';
     position: absolute;
-    left: 30px;
-    top: 30px;
+    left: 25px;
+    top: 25px;
     width: 100%;
     height: 100%;
     border: 1px solid #e6e6e6;
 }
 .image-box {
     position: relative;
-    left: 65px;
-    top: 65px;
+    left: 45px;
+    top: 45px;
 }
 
 
@@ -6769,7 +6769,7 @@ ul.pricing-feature-list.list-style-none {
 }
 /*----- Start Menu Custom Title -----*/
 .menu-title-custom {
-    font-size: 17px;
+    font-size: 16px;
     /* text-transform: uppercase; */
     color: #333;
 }
@@ -6794,18 +6794,45 @@ span.call-us-text-menu{
     font-weight: bold;
     line-height: normal;
 }
-
-.private-pricing-min-height{
+.advantages-partnership-firm-min-height{
+    min-height: 200px
+}
+.advantages-proprietorship-firm-min-height{
+    min-height: 270px
+}
+.standard-private-ltd-min-height-pricing, .premium-private-ltd-min-height-pricing{
       min-height: 695px;
 }
-.private-pricing-standard-in-height{
+.basic-private-ltd-min-height-pricing{
       min-height: 550px;
+}
+.mt15{
+    margin-top: 15px;
+}
+.mt25{
+    margin-top: 25px;
 }
 
-/* .public-limited-pricing-min-height{
-      min-height: 695px;
+.standard-llp-min-height-pricing, .premium-llp-min-height-pricing{
+
 }
-.public-limited-pricing-standard-in-height{
-      min-height: 550px;
-} */
+.basic-llp-min-height-pricing{
+
+}
+.standard-opc-min-height-pricing, .premium-opc-min-height-pricing{
+
+}
+.basic-opc-min-height-pricing{
+
+}
+.standard-partnership-min-height-pricing, .premium-partnership-min-height-pricing{min-height: 400px;}
+.basic-partnership-min-height-pricing{min-height: 320px;}
+.standard-standard-public-ltd-min-height-pricing, .premium-standard-public-ltd-min-height-pricing{
+
+}
+.basic-standard-public-ltd-min-height-pricing{
+
+}
+.standard-proprietorship-min-height-pricing, .premium-proprietorship-min-height-pricing{min-height: 280px;}
+.basic-proprietorship-min-height-pricing{min-height: 220px;}
 /*----- End Menu Custom Title -----*/
